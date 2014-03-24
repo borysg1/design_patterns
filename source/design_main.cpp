@@ -9,6 +9,7 @@ int main(int argc, char * argv[])
    vector<int> vec;
 
    vec.push_back(1);
+   vec.push_back(2);
 
    vector<int>::iterator itr = vec.begin();
    for( ; itr < vec.end(); itr++)
