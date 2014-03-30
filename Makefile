@@ -6,12 +6,16 @@ SRC_DIR = source
 CC = gcc
 CPP = g++
 
-CFLAGS = -I.
+CFLAGS = -I. -I include
 
 DEPS = 
 
 _OBJ = \
-	design_main.o
+	design_main.o \
+	director.o \
+	builder.o \
+	scheme.o \
+	pcb.o
 
 OBJ = $(patsubst %,$(OBJ_DIR)/%,$(_OBJ))
 

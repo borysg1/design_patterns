@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 
+#include "scheme.h"
+
 using namespace std;
 
 int main(int argc, char * argv[])

@@ -25,5 +25,6 @@ then
 	rm cscope.files
 	touch db_created
 fi
-/home/jzmvk8/vim/bin/vim -c "syntax off" -c "nmap <silent> <F2> :NERDTreeToggle<CR>" -c "nmap <silent> <F3> :TlistOpen<CR>" -c "nmap <silent> <F4> :TlistToggle<CR>" -c "nmap <silent> <F5> :set mouse+=a<CR>"  -c "nmap <silent> <F6> :set mouse-=a<CR>" -c "nmap <silent> <F7> :NERDTreeFind<CR>" -c "nmap <silent> <F8> :cs f c " -c "nmap <silent> <F9> :cs f f " -c "nmap <silent> <F10> :cs f e "
+#/home/jzmvk8/vim/bin/vim -c "syntax off" -c "nmap <silent> <F2> :NERDTreeToggle<CR>" -c "nmap <silent> <F3> :TlistOpen<CR>" -c "nmap <silent> <F4> :TlistToggle<CR>" -c "nmap <silent> <F5> :set mouse+=a<CR>"  -c "nmap <silent> <F6> :set mouse-=a<CR>" -c "nmap <silent> <F7> :NERDTreeFind<CR>" -c "nmap <silent> <F8> :cs f c " -c "nmap <silent> <F9> :cs f f " -c "nmap <silent> <F10> :cs f e "
+vim -c "syntax off" -c "nmap <silent> <F2> :NERDTreeToggle<CR>" -c "nmap <silent> <F3> :TlistOpen<CR>" -c "nmap <silent> <F4> :TlistToggle<CR>" -c "nmap <silent> <F5> :set mouse+=a<CR>"  -c "nmap <silent> <F6> :set mouse-=a<CR>" -c "nmap <silent> <F7> :NERDTreeFind<CR>" -c "nmap <silent> <F8> :cs f c " -c "nmap <silent> <F10> :cs f e " -c "set cindent"
 #vim -c "syntax off" -c "nmap <silent> <F2> :NERDTreeToggle<CR>" -c "nmap <silent> <F3> :TlistOpen<CR>" -c "nmap <silent> <F4> :TlistToggle<CR>" -c "nmap <silent> <F5> :set mouse+=a<CR>"  -c "nmap <silent> <F6> :set mouse-=a<CR>" -c "nmap <silent> <F7> :NERDTreeFind<CR>" -c "nmap <silent> <F8> :cs f c " -c "nmap <silent> <F9> :cs f f " -c "nmap <silent> <F10> :cs f e "
